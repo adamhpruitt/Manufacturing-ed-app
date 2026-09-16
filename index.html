@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8F%AD%3C/text%3E%3C/svg%3E">
+<title>Manufacturing Insurance Academy</title>
+<meta name="description" content="Free training for new agents and producers on commercial insurance for manufacturers: lessons, quizzes, and market updates.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">MI</span>
+      Manufacturing Insurance Academy
+    </a>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html" class="active">Lessons</a></li>
+        <li><a href="market-updates.html">Market Updates</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Learn manufacturing commercial insurance the way you'll actually sell it.</h1>
+    <p>Ten short lessons built for new agents and producers, covering the coverage lines that matter most on a manufacturing risk — plus real market news so you understand what's moving rates right now.</p>
+    <div>
+      <a href="lessons/01-introduction.html" class="btn btn-primary">Start Lesson 1</a>
+      <a href="market-updates.html" class="btn btn-secondary">See Market Updates</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><span class="num">10</span><span class="label">Lessons</span></div>
+      <div class="hero-stat"><span class="num">50</span><span class="label">Quiz questions</span></div>
+      <div class="hero-stat"><span class="num">0</span><span class="label">Sign-up required</span></div>
+    </div>
+  </div>
+</section>
+
+<main class="container">
+  <section class="section">
+    <div class="progress-wrap" id="progress-dashboard">
+      <div class="progress-wrap-top">
+        <strong id="progress-count">0 / 10 lessons complete</strong>
+        <button class="progress-reset" id="reset-progress" type="button">Reset progress</button>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Lesson catalog</h2>
+    <p class="section-subtitle">Each lesson takes 8&ndash;12 minutes and ends with a short knowledge check. Your progress is saved on this device only &mdash; no account needed.</p>
+    <div class="lesson-grid" id="lesson-grid"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Manufacturing Insurance Academy is an independent educational resource. Content is for training purposes only and is not legal, underwriting, or coverage advice &mdash; always confirm policy language and eligibility with the carrier and current forms.</p>
+  </div>
+</footer>
+
+<script src="assets/js/storage.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
